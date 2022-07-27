@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,100&display=swap');
+
+
+
+body {
+  background-image: url("images/background.jpg");
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  line-height: 1.6;
+  color: #41EAD4;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  text-decoration:underline;
+}
+
+#bio {
+  padding: 20px;
+}
+
+#button {
+  background-color: #7D8CA3;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  display: box;
+  color: #41EAD4;
+}
+
+a:hover{
+  color:#41EAD4
+}
+
+.container {
+  background-color: #F00699;
+  width: 600px;   /* This sets the width */
+  margin: 30px auto; /* This automatically sets left/right margins */
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px red;
+  padding: 10px
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 30px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #41EAD4;
+}
+
+li {
+  display: inline;
+}
+
+.icons {
+  color: #41EAD4;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
